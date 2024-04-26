@@ -16,7 +16,7 @@ string ComprimirTexto(string texto) {
     string comprimir;
     int contador = 1;
 
-    for (int i = 0; i < texto.length() - 1; i++) {
+    for (int i = 0; i < texto.size() - 1; i++) {
         if (texto[i] == texto[i + 1]) {
             contador++;
         } else {
